@@ -76,7 +76,8 @@
 ---
 
 ## Submission format
-- **GitHub (preferred) or LMS upload:**  
+- **GitHub (preferred):**  
+  - Github repo name: `gcp_oci_vm_start`
   - `README.md` (your tutorial with screenshots embedded)  
   - Link to your **Loom/Zoom** recording at the top of the README  
 - **File naming:** `lastname_firstname_vm-lifecycle_gcp-oci.md` if submitting as a single file  
