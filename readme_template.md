@@ -18,12 +18,12 @@ Loom/Zoom: [VM Lifecycle Tutorial](assignment_1/video2920590959.mp4)
 5. Boot disk: default minimal
 6. Network: default VPC; ephemeral public IP
 
-![GCP create](assignment_1\gcprunning.png)
 
 ### Start/Stop
-- Start: <state shows RUNNING>
-- Stop: <state shows TERMINATED/STOPPED>
+- Start:
+![GCP create](assignment_1\gcprunning.png)
 
+- Stop:
 ![GCP stopped](assignment_1\gcpstopped.png)
 
 ### Delete
@@ -35,25 +35,26 @@ Loom/Zoom: [VM Lifecycle Tutorial](assignment_1/video2920590959.mp4)
 
 ## Oracle Cloud (OCI)
 ### Create
-1. Compartment: <name>
+1. Compartment: humababar (root)
 2. Networking: VCN with Internet Connectivity (defaults)
-3. Shape: <smallest/free-eligible>
-4. Image: Ubuntu (or Oracle Linux)
+3. Shape: VM.Standard.A1.Flex
+4. Image: Ubuntu
 5. Public IP: ephemeral
 6. Boot volume: default minimal
 
-![OCI create](images/oci_create.png)
+![OCI create](assignment_1/ocirunning.png)
 
 ### Start/Stop
 - Start: <state shows RUNNING>
-- Stop: <state shows STOPPED>
+![OCI running](assignment_1\ocistopped.png)
 
-![OCI running](images/oci_running.png)
+- Stop: 
+![OCI terminated](assignment_1\ociterminated.png)
 
 ### Terminate
 - Terminate and delete boot volume; verify cleanup
 
-![OCI cleaned](images/oci_clean.png)
+![OCI cleaned](assignment_1/ociclean.png)
 
 ---
 
