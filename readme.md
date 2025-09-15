@@ -76,4 +76,4 @@ Loom/Zoom: [VM Lifecycle Tutorial](assignment_1/video2920590959.mp4)
 - GCP uses machine types (like E2) while OCI uses shapes for their vm
 
 ### Preference (OCI vs GCP) and Why
-- I prefer using GCP because it is more user-friendly and has a better clean up process when terminating a vm. I like how symbols are used in GCP. When a vm is "running" there is a green check symbol next to the instance name and when the vm is "stopped" there is a gray pause symbol. GCP will also show you how many credits you have left in your billing account for students. 
+- Even though OCI looks better graphically, I prefer using GCP because it is more user-friendly and has a better clean up process when terminating a vm. I like how symbols are used in GCP. When a vm is "running" there is a green check symbol next to the instance name and when the vm is "stopped" there is a gray pause symbol. GCP will also show you how many credits you have left in your billing account for students. 
