@@ -18,19 +18,18 @@ Loom/Zoom: [VM Lifecycle Tutorial](assignment_1\video2920590959.mp4)
 5. Boot disk: default minimal
 6. Network: default VPC; ephemeral public IP
 
-![GCP create](assignment_1\GCP running.png)
+![GCP create](assignment_1\gcprunning.png)
 
 ### Start/Stop
 - Start: <state shows RUNNING>
 - Stop: <state shows TERMINATED/STOPPED>
 
-![GCP running](assignment_1\GCP running.png)
-![GCP stopped] (assignment_1\GCP stopped.png)
+![GCP stopped](assignment_1\gcpstopped.png)
 
 ### Delete
 - Delete instance and verify no disks/IPs remain
 
-![GCP cleaned](assignment_1\GCP cleaned.png)
+![GCP cleaned](assignment_1\gcpcleaned.png)
 
 ---
 
