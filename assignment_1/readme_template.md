@@ -1,7 +1,7 @@
 # VM Lifecycle on GCP and OCI — Tutorial
 
 ## Video
-Loom/Zoom: [VM Lifecycle Tutorial](assignment_1\video2920590959.mp4)
+Loom/Zoom: [VM Lifecycle Tutorial](assignment_1/video2920590959.mp4)
 
 ## Prereqs
 - Cloud access to GCP and OCI
