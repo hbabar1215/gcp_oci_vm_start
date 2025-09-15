@@ -12,8 +12,8 @@ Loom/Zoom: [VM Lifecycle Tutorial](assignment_1/video2920590959.mp4)
 ## Google Cloud (GCP)
 ### Create
 1. Console → Compute Engine → Create instance
-2. Region/zone: <us-central1b>
-3. Machine type: <E2.Micro>
+2. Region/zone: us-central1b
+3. Machine type: E2.Micro
 4. Image: Ubuntu LTS
 5. Boot disk: default minimal
 6. Network: default VPC; ephemeral public IP
@@ -73,7 +73,7 @@ Loom/Zoom: [VM Lifecycle Tutorial](assignment_1/video2920590959.mp4)
 - The GCP layout is easier to understand/use
 - In GCP you choose specific regions/zones
 - In OCI there is a drop down bar for start stop and terminate while in GCP each action has a separate button 
-- GCP uses machine types while OCI uses shapes for their vm
+- GCP uses machine types (like E2) while OCI uses shapes for their vm
 
 ### Preference (OCI vs GCP) and Why
 - I prefer using GCP because it is more user-friendly and has a better clean up process when terminating a vm. GCP will also show you how many credits you have left in your billing account for students. 
