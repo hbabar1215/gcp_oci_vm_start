@@ -1,7 +1,7 @@
 # VM Lifecycle on GCP and OCI — Tutorial
 
 ## Video
-Loom/Zoom: <c:\Users\Huma\OneDrive\Documents\Zoom\2025-09-15 09.36.56 Huma Babar's Zoom Meeting\video2920590959.mp4>
+Loom/Zoom: [VM Lifecycle Tutorial](assignment_1\video2920590959.mp4)
 
 ## Prereqs
 - Cloud access to GCP and OCI
@@ -24,7 +24,7 @@ Loom/Zoom: <c:\Users\Huma\OneDrive\Documents\Zoom\2025-09-15 09.36.56 Huma Babar
 - Start: <state shows RUNNING>
 - Stop: <state shows TERMINATED/STOPPED>
 
-![GCP running](images/gcp_running.png)
+![GCP running](assignment_1\GCP running.png)
 ![GCP stopped] (assignment_1\GCP stopped.png)
 
 ### Delete
