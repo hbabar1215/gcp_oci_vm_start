@@ -21,15 +21,15 @@ Loom/Zoom: [VM Lifecycle Tutorial](assignment_1/video2920590959.mp4)
 
 ### Start/Stop
 - Start:
-![GCP create](assignment_1\gcprunning.png)
+![GCP create](assignment_1/gcprunning.png)
 
 - Stop:
-![GCP stopped](assignment_1\gcpstopped.png)
+![GCP stopped](assignment_1/gcpstopped.png)
 
 ### Delete
 - Delete instance and verify no disks/IPs remain
 
-![GCP cleaned](assignment_1\gcpcleaned.png)
+![GCP cleaned](assignment_1/gcpcleaned.png)
 
 ---
 
@@ -46,10 +46,10 @@ Loom/Zoom: [VM Lifecycle Tutorial](assignment_1/video2920590959.mp4)
 
 ### Start/Stop
 - Start: <state shows RUNNING>
-![OCI running](assignment_1\ocistopped.png)
+![OCI running](assignment_1/ocistopped.png)
 
 - Stop: 
-![OCI terminated](assignment_1\ociterminated.png)
+![OCI terminated](assignment_1/ociterminated.png)
 
 ### Terminate
 - Terminate and delete boot volume; verify cleanup
