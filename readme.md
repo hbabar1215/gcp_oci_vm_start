@@ -68,7 +68,7 @@ Zoom: [OCI Clean up](https://drive.google.com/file/d/18b4k8t5noMsza9N9SFDHPnhy7Z
 
 ## Reflections
 ### Similarities
-- Both have "create instances" button 
+- Both have a "create" button
 - Choosing an OS image and shape
 - Adding SSH key pairs
 - Both allow us to create small free tier VMs
@@ -76,6 +76,7 @@ Zoom: [OCI Clean up](https://drive.google.com/file/d/18b4k8t5noMsza9N9SFDHPnhy7Z
 ### Differences
 - The GCP layout is easier to understand/use
 - In GCP you choose specific regions/zones
+- GCP's button says "create a VM" but OCI's says "create instance"
 - In OCI there is a drop down bar for start stop and terminate while in GCP each action has a separate button 
 - GCP uses machine types (like E2) while OCI uses shapes for their vm
 - In GCP when you select a shape like Ubuntu, GCP assigns you a version but in OCI you have to futher select an image name, only selecting Ubuntu is not sufficient. 
