@@ -15,7 +15,7 @@ Zoom: [OCI Clean up](https://drive.google.com/file/d/18b4k8t5noMsza9N9SFDHPnhy7Z
 1. Console → Compute Engine → Create instance: test-ahi
 2. Region/zone: us-central1b
 3. Machine type: E2.Micro
-4. Image: Ubuntu LTS
+4. Image: Ubuntu LTS (after this selection leave everything as is)
 5. Boot disk: default minimal
 6. Network: default VPC; ephemeral public IP
 
@@ -39,11 +39,13 @@ Zoom: [OCI Clean up](https://drive.google.com/file/d/18b4k8t5noMsza9N9SFDHPnhy7Z
 ## Oracle Cloud (OCI)
 ### Create
 1. Compartment: humababar (root)
-2. Networking: VCN with Internet Connectivity (defaults)
-3. Shape: VM.Standard.A1.Flex
-4. Image: Ubuntu
-5. Public IP: ephemeral
-6. Boot volume: default minimal
+2. Shape: VM.Standard.A1.Flex
+3. Image: Ubuntu (Canonical Ubuntu 22.04 Minimal aarch64)
+4. Public IP: ephemeral
+5. Security: leave as default
+6. Networking: primary network = Create new virtual cloud network. Subnet: Create new public subnet
+7. Boot volume: default minimal
+
 
 ### Start/Stop
 - Start: <state shows RUNNING>
