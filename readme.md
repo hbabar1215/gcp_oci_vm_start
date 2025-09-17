@@ -1,7 +1,7 @@
 # VM Lifecycle on GCP and OCI — Tutorial
 
 ## Video
-Loom/Zoom: [VM Lifecycle Tutorial](https://drive.google.com/file/d/1FehYcNGstay3TnBAdl_0vsl7CIRjzdXN/view?usp=sharing) 
+Loom/Zoom: [VM Lifecycle Tutorial](https://drive.google.com/file/d/1m4hDOGO8tKH3R-98T-m6qQ832lKdJW5k/view?usp=sharing) 
 Zoom: [OCI Clean up](https://drive.google.com/file/d/18b4k8t5noMsza9N9SFDHPnhy7Zvi6GpP/view?usp=sharing)
 (I made a small clip to show another way we can double check our clean up in OCI by going into boot volume attachments)
 ## Prereqs
@@ -23,11 +23,11 @@ Zoom: [OCI Clean up](https://drive.google.com/file/d/18b4k8t5noMsza9N9SFDHPnhy7Z
 ### Start/Stop
 - Start:
 
-![GCP create](assignment_1\gcp\gcpcreate.png)
+![GCP create](assignment_1/gcp/gcpcreate.png)
 
 - Stop:
 
-![GCP stopped](assignment_1\gcp\gcpstop.png)
+![GCP stopped](assignment_1/gcp/gcpstop.png)
 
 ### Delete
 - Delete instance and verify no disks/IPs remain
@@ -48,18 +48,18 @@ Zoom: [OCI Clean up](https://drive.google.com/file/d/18b4k8t5noMsza9N9SFDHPnhy7Z
 ### Start/Stop
 - Start: <state shows RUNNING>
 
-![OCI create](assignment_1\oci\ocicreate.png)
+![OCI create](assignment_1/oci/ocicreate.png)
 
 - Stop: 
 
-![OCI stop](assignment_1\oci\ocistop.png)
+![OCI stop](assignment_1/oci/ocistop.png)
 
 ### Terminate
 - Terminate and delete boot volume; verify cleanup
 
-![OCI terminated](assignment_1\oci\ociterminate.png)
+![OCI terminated](assignment_1/oci/ociterminate.png)
 
-![OCI cleaned](assignment_1\oci\oci_clean.png)
+![OCI cleaned](assignment_1/oci/oci_clean.png)
 
 ---
 
