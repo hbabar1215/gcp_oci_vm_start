@@ -59,6 +59,7 @@ Zoom: [OCI Clean up](https://drive.google.com/file/d/18b4k8t5noMsza9N9SFDHPnhy7Z
 
 ![OCI terminated](assignment_1/oci/ociterminate.png)
 
+### Verify Cleanup
 ![OCI cleaned](assignment_1/oci/oci_clean.png)
 
 ---
