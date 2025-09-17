@@ -2,7 +2,8 @@
 
 ## Video
 Loom/Zoom: [VM Lifecycle Tutorial](https://drive.google.com/file/d/1FehYcNGstay3TnBAdl_0vsl7CIRjzdXN/view?usp=sharing) 
-
+Zoom: [OCI Clean up](https://drive.google.com/file/d/18b4k8t5noMsza9N9SFDHPnhy7Zvi6GpP/view?usp=sharing)
+(I made a small clip to show another way we can double check our clean up in OCI by going into boot volume attachments)
 ## Prereqs
 - Cloud access to GCP and OCI
 - No PHI/PII; smallest/free-tier shapes
@@ -11,7 +12,7 @@ Loom/Zoom: [VM Lifecycle Tutorial](https://drive.google.com/file/d/1FehYcNGstay3
 
 ## Google Cloud (GCP)
 ### Create
-1. Console → Compute Engine → Create instance
+1. Console → Compute Engine → Create instance: test-ahi
 2. Region/zone: us-central1b
 3. Machine type: E2.Micro
 4. Image: Ubuntu LTS
@@ -22,16 +23,16 @@ Loom/Zoom: [VM Lifecycle Tutorial](https://drive.google.com/file/d/1FehYcNGstay3
 ### Start/Stop
 - Start:
 
-![GCP create](assignment_1/gcprunning.png)
+![GCP create](assignment_1\gcp\gcpcreate.png)
 
 - Stop:
 
-![GCP stopped](assignment_1/gcpstopped.png)
+![GCP stopped](assignment_1\gcp\gcpstop.png)
 
 ### Delete
 - Delete instance and verify no disks/IPs remain
 
-![GCP cleaned](assignment_1/gcpcleaned.png)
+![GCP cleaned](assignment_1/gcp/gcpclean.png)
 
 ---
 
@@ -47,18 +48,18 @@ Loom/Zoom: [VM Lifecycle Tutorial](https://drive.google.com/file/d/1FehYcNGstay3
 ### Start/Stop
 - Start: <state shows RUNNING>
 
-![OCI create](assignment_1/ocirunning.png)
+![OCI create](assignment_1\oci\ocicreate.png)
 
 - Stop: 
 
-![OCI running](assignment_1/ocistopped.png)
+![OCI stop](assignment_1\oci\ocistop.png)
 
 ### Terminate
 - Terminate and delete boot volume; verify cleanup
 
-![OCI terminated](assignment_1/ociterminated.png)
+![OCI terminated](assignment_1\oci\ociterminate.png)
 
-![OCI cleaned](assignment_1/ociclean.png)
+![OCI cleaned](assignment_1\oci\oci_clean.png)
 
 ---
 
