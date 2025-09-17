@@ -76,7 +76,9 @@ Zoom: [OCI Clean up](https://drive.google.com/file/d/18b4k8t5noMsza9N9SFDHPnhy7Z
 - In GCP you choose specific regions/zones
 - In OCI there is a drop down bar for start stop and terminate while in GCP each action has a separate button 
 - GCP uses machine types (like E2) while OCI uses shapes for their vm
+- In GCP when you select a shape like Ubuntu, GCP assigns you a version but in OCI you have to futher select an image name, only selecting Ubuntu is not sufficient. 
 - Terminated vm is visibly present for some time in OCI but immediately gone in GCP.
+- In GCP after when you remove a vm the term is "delete" but in OCI it is "terminate."
 
 ### Preference (OCI vs GCP) and Why
 - Even though OCI looks better graphically, I prefer using GCP because it is more user-friendly and has a better clean up process when terminating a vm. For example, when terminating a vm on OCI it still lives there giving users the chance to review the vm and restore if needed. It hard deletes after a couple of hours while in GCP the terminated vm is deleted right away. Additionally, I like how symbols are used in GCP. When a vm is "running" there is a green check symbol next to the instance name and when the vm is "stopped" there is a gray pause symbol. GCP will also show you how many credits you have left in your billing account for students. 
