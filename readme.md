@@ -43,7 +43,7 @@ Zoom: [OCI Clean up](https://drive.google.com/file/d/18b4k8t5noMsza9N9SFDHPnhy7Z
 3. Image: Ubuntu (Canonical Ubuntu 22.04 Minimal aarch64)
 4. Public IP: ephemeral
 5. Security: leave as default
-6. Networking: primary network = Create new virtual cloud network. Subnet: Create new public subnet
+6. Networking: primary network = Create new virtual cloud network. Subnet: Create new public subnet (leave everything as is after this selection)
 7. Boot volume: default minimal
 
 
